@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #c7f1f1, #e3e9ff);
+  color: #222;
+}
+
+/* HEADER */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5%;
+}
+.logo {
+  width: 100px;
+}
+.accessibility button {
+  background: none;
+  border: 1px solid #888;
+  border-radius: 6px;
+  margin-left: 5px;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 5%;
+  flex-wrap: wrap;
+}
+.hero-text h1 {
+  font-size: 2.5rem;
+  max-width: 400px;
+}
+.btn-primary {
+  background: #0077b6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.hero-img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+/* SEÇÕES */
+section {
+  padding: 40px 5%;
+  text-align: center;
+}
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  width: 280px;
+  padding: 10px;
+}
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+.btn-secondary {
+  background: white;
+  border: 2px solid #0077b6;
+  color: #0077b6;
+  border-radius: 30px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.tags span {
+  background: #caf0f8;
+  border-radius: 20px;
+  padding: 8px 15px;
+  margin: 5px;
+  display: inline-block;
+}
+
+/* TABELA */
+.cart table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.cart th, .cart td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.total td {
+  font-weight: bold;
+}
+.cart-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* RYBENÁ */
+.accessibility-section .card {
+  width: 200px;
+}
+.note {
+  margin-top: 15px;
+  color: #555;
+}
+
+/* FOOTER */
+footer {
+  background: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-img {
+    width: 80%;
+    margin-top: 20px;
+  }
+}
