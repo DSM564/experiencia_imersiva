@@ -176,7 +176,7 @@ h2 {
 }
 
 .rybena-image img {
-  width: 60%;              /* tamanho razoavelmente grande */
+  width: 100%;              /* tamanho razoavelmente grande */
   max-width: 600px;        /* limite para telas grandes */
   height: auto;            /* mantém proporção */
   border-radius: 12px;     /* cantos suaves */
