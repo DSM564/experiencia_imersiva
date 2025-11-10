@@ -157,14 +157,30 @@ h2 {
   justify-content: center;
   gap: 20px;
 }
-
-/* RYBENÁ */
-.accessibility-section .card {
-  width: 200px;
+.cart table img {
+  width: 60px;      /* largura fixa pequena */
+  height: auto;     /* mantém proporção */
+  border-radius: 6px; /* cantos suaves */
+  object-fit: cover;  /* corta imagem se necessário */
 }
-.note {
-  margin-top: 15px;
-  color: #555;
+
+/* --- Seção Rybená simplificada --- */
+.rybena-section {
+  text-align: center;
+  padding: 60px 5%;
+}
+
+.rybena-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+}
+
+.rybena-image img {
+  width: 60%;              /* tamanho razoavelmente grande */
+  max-width: 600px;        /* limite para telas grandes */
+  height: auto;            /* mantém proporção */
+  border-radius: 12px;     /* cantos suaves */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* leve sombra */
 }
 
 /* FOOTER */
