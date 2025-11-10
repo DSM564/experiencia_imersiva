@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experiência Imersiva e Inclusiva</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="top-bar">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Senac_logo.svg" alt="Logo Senac" class="logo">
+      <div class="accessibility">
+        <button>A+</button>
+        <button>A-</button>
+        <button>🗣️</button>
+        <button>⚙️</button>
+      </div>
+    </div>
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Experiência Imersiva e Inclusiva</h1>
+        <button class="btn-primary">Quem Somos</button>
+      </div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Person_wearing_VR_headset.jpg" alt="Pessoa usando óculos de realidade virtual" class="hero-img">
+    </section>
+  </header>
+
+  <main>
+    <section class="services">
+      <h2>Nossos Serviços</h2>
+      <div class="cards">
+        <div class="card"><img src="https://placehold.co/300x200" alt="Jogo VR"><p>Jogos</p></div>
+        <div class="card"><img src="https://placehold.co/300x200" alt="Atividade VR"><p>Atividades</p></div>
+        <div class="card"><img src="https://placehold.co/300x200" alt="Aula VR"><p>Aulas</p></div>
+      </div>
+      <button class="btn-secondary">Outros Serviços</button>
+    </section>
+
+    <section class="products">
+      <h2>Produtos Imersivos</h2>
+      <div class="cards">
+        <div class="card"><img src="https://placehold.co/300x200" alt="Provador Virtual"><p>Prove suas roupas de forma virtual</p></div>
+        <div class="card"><img src="https://placehold.co/300x200" alt="Teatro Imersivo"><p>Teatro imersivo sem sair de casa</p></div>
+        <div class="card"><img src="https://placehold.co/300x200" alt="Cinema VR"><p>Assista seus filmes em realidade aumentada</p></div>
+      </div>
+      <div class="tags">
+        <span>Consultas Médicas</span>
+        <span>Terapia</span>
+        <span>Cinema</span>
+        <span>Teatro</span>
+      </div>
+    </section>
+
+    <section class="cart">
+      <h2>Seu Carrinho</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Produto</th>
+            <th>Foto</th>
+            <th>Descrição</th>
+            <th>Preço unitário</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Aula Zumba Virtual</td>
+            <td><img src="https://placehold.co/100x70" alt="Zumba VR"></td>
+            <td>Atividade imersiva com instrutor virtual</td>
+            <td>R$100,00</td>
+          </tr>
+          <tr>
+            <td>Endereço</td>
+            <td>-</td>
+            <td>Rua ABC, 321, São Paulo, Brasil</td>
+            <td>R$0,00</td>
+          </tr>
+          <tr class="total">
+            <td colspan="3">TOTAL</td>
+            <td>R$100,00</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="cart-buttons">
+        <button class="btn-secondary">Continue comprando</button>
+        <button class="btn-primary">Forma de pagamento</button>
+      </div>
+    </section>
+
+    <section class="accessibility-section">
+      <h2>O que a Rybená torna acessível?</h2>
+      <div class="cards">
+        <div class="card"><p>Websites acessíveis</p></div>
+        <div class="card"><p>Documentos em PDF acessíveis</p></div>
+        <div class="card"><p>Ambientes de aprendizagem</p></div>
+        <div class="card"><p>Dispositivos móveis</p></div>
+      </div>
+      <p class="note">Serviço disponível em vários ambientes, inclusive off-line.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Experiência Imersiva e Inclusiva | Desenvolvido para Projeto Integrador Senac</p>
+  </footer>
+
+</body>
+</html>
